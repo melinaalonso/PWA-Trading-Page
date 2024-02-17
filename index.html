@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/icon-192x192.png"/>
+    <title>Crypmel</title>
+</head>
+<body>
+   <header class="header" data-header>
+    <div class="container">
+        <a href="./index.html" class="logo" width="32" height="32">
+          <img src="./img/icon-192x192.png" alt="Cryto logo">
+          Crypmel
+        </a>
+        <nav class="navbar" data-navbar>
+         <ul class="navbar-list">
+            <li class="navbar-item" href="./index.html">
+                <a href="./index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="./market.html" class="navbar-link" data-nav-link>Market</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" data-nav-link>About us</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+            <li class="navbar-item" id="li-install">
+              <a class="navbar-link" id="btn-install" data-nav-link>Install App</a>
+            </li>
+            <li class="navbar-item" id="li-share">
+              <a class="navbar-link" id="btn-share" data-nav-link>Share App</a>
+            </li>
+            <li class="navbar-item">
+             <strong><span id="status">Online</span></strong>
+            </li>
+        </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+    </div>
+   </header>
+
+   <section class="section hero" aria-label="hero" data-section>
+    <div class="container">
+
+      <div class="hero-content">
+        <h1 class="h1 hero-title">Look & Trade Digital Assets In The Crypmel</h1>
+        <p class="hero-text">
+            Coin Crypmel is the easiest, safest and fastest way to compare, convert and trade crypto assets.
+        </p>
+        <a href="#" class="btn btn-primary">Get started now</a>
+      </div>
+      <figure class="hero-banner">
+        <img src="img/hero-banner.png" width="570" height="448" alt="hero banner" class="w-100">
+      </figure>
+    </div>
+  </section>
+  <main>
+
+    <section class="searchCripto">
+      <div class="divBuscadorCriptos">
+        <label for="busquedaCriptos"> Search your favorite Cripto:
+        </label>
+        <input type="text" id="busquedaCriptos" placeholder="   Write name or symbol">
+      </div>
+      <div class="container" id="contenedorCriptomonedas">
+      </div>
+    </section>
+
+  <section class="section market" aria-label="market update" data-section>
+    <div class="market-tab">
+        <table class="market-table">
+            <thead class="table-head">
+                <tr class="table-row table-title">
+                    <th class="table-heading"></th>
+                    <th class="table-heading" scope="col">#</th>
+                    <th class="table-heading" scope="col">Name</th>
+                    <th class="table-heading4" scope="col">Last Price</th>
+                    <th class="table-heading5" scope="col">24h %</th>
+                    <th class="table-heading6" scope="col">Market Cap</th>
+                    <th class="table-heading7" scope="col">Last 7 Days</th>
+                    <th class="table-heading8"></th>
+                </tr>
+            </thead>
+            <tbody id="data" class="table-body">
+            </tbody>
+        </table>
+    </div>
+  </section>
+  <section class="comments">
+    <div>
+      <h2>Comments</h2>
+      <form id="commentForm">
+        <input type="text" id="nameInput" placeholder="Tu nombre">
+        <input type="text" id="commentInput" placeholder="Leave a comment">
+        <button class="btn-comment" type="submit">Send</button>
+      </form>
+    </div>
+    <div id="commentArea">
+    </div>
+  </section>
+</main>
+  <footer>
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Crypmel All Rights Reserved by <a href="#" class="copyright-link">Melina Sol Alonso</a>
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

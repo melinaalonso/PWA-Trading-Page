@@ -1,0 +1,33 @@
+{
+    "theme_color": "#80718d",
+    "background_color": "#a3a1a0",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/index.html",
+    "id": "/index.html",
+    "name": "Crypmel",
+    "short_name": "CM",
+    "description": "Controla el valor de las criptomonedas en tiempo real!",
+    "icons": [
+        {
+            "src": "img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
